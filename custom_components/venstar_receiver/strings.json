@@ -1,0 +1,71 @@
+{
+  "title": "Venstar WiFi Sensor Receiver",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Venstar receiver",
+        "description": "Set receiver options, then pair the physical sensor before creating the entry.",
+        "data": {
+          "name": "Entry Name",
+          "listen_ip": "Listen IP",
+          "listen_port": "Listen Port",
+          "unit_id_filter": "Unit ID Filter"
+        }
+      },
+      "pair_ready": {
+        "title": "Ready to pair?",
+        "description": "Put the Venstar sensor in pairing mode, then press Pair.",
+        "menu_options": {
+          "pair_start": "Pair",
+          "pair_cancel": "Cancel"
+        }
+      },
+      "pairing_active": {
+        "title": "Pairing in progress",
+        "description": "Listening for pairing packets."
+      },
+      "pair_complete": {
+        "title": "Pairing complete",
+        "description": "Pairing data was received successfully.",
+        "menu_options": {
+          "pair_finish": "Finish"
+        }
+      },
+      "pair_timeout": {
+        "title": "Pairing timed out",
+        "description": "No valid pairing packet was received before timeout.",
+        "menu_options": {
+          "pair_start": "Pair Again",
+          "pair_cancel": "Cancel"
+        }
+      }
+    },
+    "error": {
+      "invalid_listen_ip": "Invalid IPv4 listen address"
+    },
+    "progress": {
+      "listening": "Waiting for pairing packet"
+    },
+    "abort": {
+      "pairing_cancelled": "Pairing cancelled",
+      "pairing_context_missing": "Pairing context missing. Restart setup.",
+      "pairing_listen_failed": "Could not start UDP listener for pairing. Check listen IP/port."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Edit receiver",
+        "data": {
+          "name": "Entry Name",
+          "listen_ip": "Listen IP",
+          "listen_port": "Listen Port",
+          "unit_id_filter": "Unit ID Filter"
+        }
+      }
+    },
+    "error": {
+      "invalid_listen_ip": "Invalid IPv4 listen address"
+    }
+  }
+}
