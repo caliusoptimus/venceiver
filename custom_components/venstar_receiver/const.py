@@ -3,7 +3,11 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Final
+from typing import TYPE_CHECKING, Final
+
+if TYPE_CHECKING:
+    from .coordinator import VenstarReceiverCoordinator
+    from .runtime import VenstarReceiverRuntime
 
 DOMAIN: Final = "venstar_receiver"
 
@@ -34,5 +38,5 @@ PLATFORMS: Final = ["sensor"]
 class IntegrationData:
     """Runtime objects associated with a config entry."""
 
-    runtime: "VenstarReceiverRuntime"
-    coordinator: "VenstarReceiverCoordinator"
+    runtime: VenstarReceiverRuntime
+    coordinator: VenstarReceiverCoordinator
