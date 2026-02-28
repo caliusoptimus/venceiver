@@ -44,7 +44,7 @@ class VenstarReceivedTemperatureSensor(VenstarReceiverBaseEntity, SensorEntity):
     _attr_name = "Received Temperature F"
     _attr_unique_id = None
     _attr_native_unit_of_measurement = UnitOfTemperature.FAHRENHEIT
-    _attr_device_class = SensorDeviceClass.TEMPERATURE
+    _attr_icon = "mdi:thermometer"
 
     def __init__(self, data: IntegrationData, entry: ConfigEntry) -> None:
         super().__init__(data, entry)
