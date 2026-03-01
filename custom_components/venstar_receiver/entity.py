@@ -23,7 +23,7 @@ class VenstarReceiverBaseEntity(CoordinatorEntity):
             name=entry.title,
             manufacturer="Venstar",
             model="ACC-TSENWIFI Receiver",
-            sw_version="1.01",
+            sw_version="1.02",
         )
 
     @property
