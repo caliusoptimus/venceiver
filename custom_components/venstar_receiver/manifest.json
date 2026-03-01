@@ -5,9 +5,9 @@
     "@caliusoptimus"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/caliusoptimus/venmulator",
+  "documentation": "https://github.com/caliusoptimus/venceiver",
   "iot_class": "local_push",
-  "issue_tracker": "https://github.com/caliusoptimus/venmulator/issues",
+  "issue_tracker": "https://github.com/caliusoptimus/venceiver/issues",
   "requirements": [],
   "version": "1.01"
 }
