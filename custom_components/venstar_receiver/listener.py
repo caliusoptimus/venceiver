@@ -1,4 +1,4 @@
-"""Shared UDP listener manager for Venstar receiver endpoints."""
+"""Shared UDP listener manager for WiFi sensor receiver for Venstar endpoints."""
 
 from __future__ import annotations
 

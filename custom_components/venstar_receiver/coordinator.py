@@ -1,4 +1,4 @@
-"""Coordinator for Venstar receiver UI state."""
+"""Coordinator for WiFi sensor receiver for Venstar UI state."""
 
 from __future__ import annotations
 

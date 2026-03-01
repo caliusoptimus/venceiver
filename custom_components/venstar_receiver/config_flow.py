@@ -1,4 +1,4 @@
-"""Config flow for Venstar WiFi sensor receiver."""
+"""Config flow for WiFi sensor receiver for Venstar."""
 
 from __future__ import annotations
 

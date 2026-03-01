@@ -1,4 +1,4 @@
-"""Protocol helpers for Venstar WiFi sensor packets."""
+"""Protocol helpers for WiFi sensor packets for Venstar."""
 
 from __future__ import annotations
 

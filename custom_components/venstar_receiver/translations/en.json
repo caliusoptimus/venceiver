@@ -1,9 +1,9 @@
 {
-  "title": "Venstar WiFi Sensor Receiver",
+  "title": "WiFi Sensor Receiver for Venstar",
   "config": {
     "step": {
       "user": {
-        "title": "Add Venstar receiver",
+        "title": "Add WiFi sensor receiver for Venstar",
         "description": "Set receiver options, then pair the physical sensor before creating the entry.",
         "data": {
           "name": "Entry Name",

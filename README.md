@@ -1,6 +1,6 @@
-# Venstar WiFi Sensor Receiver - User Guide
+# WiFi Sensor Receiver for Venstar - User Guide
 
-This integration receives packets from real Venstar `ACC-TSENWIFI` wireless sensors and exposes decoded values in Home Assistant.
+This integration receives packets from real `ACC-TSENWIFI` wireless sensors used with Venstar thermostats and exposes decoded values in Home Assistant.
 
 ## Related Projects
 
@@ -9,11 +9,11 @@ This integration receives packets from real Venstar `ACC-TSENWIFI` wireless sens
 ## Tested Hardware
 
 - Sensor ACC-TSENWIFI
-- Venstar WiFi Sensor Emulator
+- WiFi Sensor Emulator for Venstar
 
 ## What It Does
 
-- Listens for Venstar sensor UDP packets on your local network (default `0.0.0.0:5001`)
+- Listens for `ACC-TSENWIFI` UDP packets on your local network (default `0.0.0.0:5001`)
 - Runs pairing during setup
 - Captures and stores sensor key from pairing packets (`type 43`)
 - Accepts only authenticated update packets (`type 42`) after pairing
@@ -23,7 +23,7 @@ This integration receives packets from real Venstar `ACC-TSENWIFI` wireless sens
 
 ## Requirements
 
-1. Venstar sensor that uses the `ACC-TSENWIFI` protocol.
+1. An `ACC-TSENWIFI` sensor compatible with Venstar thermostats.
 2. Home Assistant host reachable on the same network path as sensor traffic.
 
 ## Install Without HACS
@@ -38,14 +38,14 @@ This integration receives packets from real Venstar `ACC-TSENWIFI` wireless sens
 4. Add repository URL:
    1. `https://github.com/caliusoptimus/venceiver`
    2. Category: `Integration`
-5. Install `Venstar WiFi Sensor Receiver`.
+5. Install `WiFi Sensor Receiver for Venstar`.
 6. Restart Home Assistant.
 
 ## Add and Pair a Sensor Receiver Entry
 
 1. In Home Assistant:
    1. Go to `Settings > Devices & Services`.
-   2. Add integration: `Venstar WiFi Sensor Receiver`.
+   2. Add integration: `WiFi Sensor Receiver for Venstar`.
    3. Fill setup fields.
 2. On `Ready to pair?`, click `Pair`.
 3. Put the physical sensor into pairing mode. (Sensor must first be put on the WiFi network via the Venstar app)

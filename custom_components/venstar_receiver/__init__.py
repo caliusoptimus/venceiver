@@ -1,4 +1,4 @@
-"""Venstar WiFi sensor receiver integration."""
+"""WiFi sensor receiver for Venstar integration."""
 
 from __future__ import annotations
 

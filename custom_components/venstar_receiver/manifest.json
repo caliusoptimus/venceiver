@@ -1,6 +1,6 @@
 {
   "domain": "venstar_receiver",
-  "name": "Venstar WiFi Sensor Receiver",
+  "name": "WiFi Sensor Receiver for Venstar",
   "codeowners": [
     "@caliusoptimus"
   ],

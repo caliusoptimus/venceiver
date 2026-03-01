@@ -1,4 +1,4 @@
-"""Constants for Venstar WiFi sensor receiver."""
+"""Constants for WiFi sensor receiver for Venstar."""
 
 from __future__ import annotations
 
@@ -17,7 +17,7 @@ CONF_UNIT_ID_FILTER: Final = "unit_id_filter"
 CONF_SENSOR_KEY_B64: Final = "sensor_key_b64"
 CONF_PAIRED_SENSOR_INFO: Final = "paired_sensor_info"
 
-DEFAULT_NAME: Final = "Venstar Sensor Receiver"
+DEFAULT_NAME: Final = "WiFi Sensor Receiver for Venstar"
 DEFAULT_LISTEN_IP: Final = "0.0.0.0"
 DEFAULT_LISTEN_PORT: Final = 5001
 DEFAULT_PAIRING_WINDOW_SEC: Final = 300

@@ -1,4 +1,4 @@
-"""Runtime state for Venstar WiFi sensor receiver."""
+"""Runtime state for WiFi sensor receiver for Venstar."""
 
 from __future__ import annotations
 

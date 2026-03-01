@@ -1,4 +1,4 @@
-"""Base entity helpers for Venstar receiver."""
+"""Base entity helpers for WiFi sensor receiver for Venstar."""
 
 from __future__ import annotations
 
